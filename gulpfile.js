@@ -23,9 +23,10 @@ gulp.task('webserver', function(){
 	gulp.src('../pinterest-marion/')
 		.pipe(webserver({
 			fallback: 'index.html',
-			livereload: true,
+			livereload: true,	
 			directoryListing: false,
-			open: true
+			open: true,
+			port:8001
 	}));
 });
 

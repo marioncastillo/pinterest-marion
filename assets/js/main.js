@@ -1,7 +1,16 @@
-$(document).ready(function(){
+for (var i = 0 ; i<20; i++){
+		console.log(datos[i].image_url);
+		$(".fotos").append("<div class='lista'> <div class='contener'><img src='dist/img/" + datos[i].image_url + "'></div></div>");
+		
+		console.log(datos[i].title);
+		$(".fotos").append("<h4 class='titulo'>" + datos[i].title + "</h4>" );
+		
+		console.log(datos[i].description);
+		$(".fotos").append("<h5 class='descripcion'>" + datos[i].description + "</h5>");
 
-for(i=0; i<=3;i++){
-	$(".uno").append("<img src=dist/img" + datos[i].image_url +">" + "<h4>"+ datos[i].title + "</h4>" + "<h5>" + datos[i].description + "</h5>" + "<h3>" + datos[i].user+"</h3>"+ "<h3>" + dat[i].hashtag+ "</h3>")
-}
-
-})
+		console.log(datos[i].user);
+		$(".fotos").append("<h6 class='usuario'>" + datos[i].user + "</h6>");
+		
+		console.log(datos[i].hashtag);
+		$(".fotos").append("<h6 class='hash'>" + datos[i].hashtag + "</h6><br>");
+	}
