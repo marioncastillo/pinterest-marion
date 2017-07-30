@@ -1,4 +1,4 @@
-for (var i = 0 ; i<20; i++){
+for (var i = 0 ; i<40; i++){
 		console.log(datos[i].image_url);
 		$(".fotos").append("<div class='lista'> <div class='contener'><img src='dist/img/" + datos[i].image_url + "'></div></div>");
 		
