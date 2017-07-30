@@ -25,8 +25,7 @@ gulp.task('webserver', function(){
 			fallback: 'index.html',
 			livereload: true,
 			directoryListing: false,
-			open: true,
-			port:8001
+			open: true
 	}));
 });
 
