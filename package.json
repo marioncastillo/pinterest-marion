@@ -20,5 +20,13 @@
     "bootstrap": "^3.3.7",
     "jquery": "^3.2.1",
     "materialize-css": "^0.100.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marioncastillo/pinterest-marion.git"
+  },
+  "bugs": {
+    "url": "https://github.com/marioncastillo/pinterest-marion/issues"
+  },
+  "homepage": "https://github.com/marioncastillo/pinterest-marion#readme"
 }

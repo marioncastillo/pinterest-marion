@@ -6,9 +6,54 @@ body{
 	}
 	
 }
+nav{
+	border-bottom:1px solid grey;
+	height:45px;
+}
+.ini{
+	margin-top:5px;
+}
+.inicio{
+	color:grey;
+}
+.fa-pinterest{
+	margin-left:20px;
+	color:red;
+	font-size:30px;
+}
+
+.input-group{
+	width:800px;
+	margin-left:100px;
+	margin-top:-30px;
+	position:absolute;
+}
+.pines{
+	width:200px;
+	position:absolute;
+	margin-left:910px;
+	margin-top:-30px;
+
+
+}
+.barras{
+	position:absolute;
+	margin-left:1130px;
+	margin-top:-30px;
+	font-size:25px;
+	color:grey;
+}
+
+.chat{
+	position:absolute;
+	margin-left:1165px;
+	margin-top:-30px;
+	font-size:25px;
+	color:grey;
+}
 .fotos{
 	margin:30px;
-	width:170px;
+	width:200px;
 	img{
 	margin-top:60px;
 	height:300px;
@@ -18,13 +63,13 @@ body{
 
 .fotostres{
 	margin:30px;
-	width:170px;
+	width:200px;
 	margin-bottom:30px;
 }
 
 .lista{
 	img{
-		width:170px;
+		width:200px;
 		border-radius:20px;
 	}
 }

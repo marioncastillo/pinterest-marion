@@ -36,4 +36,4 @@ for (var i = 10; i<40; i++){
 	$(".lista").click(function(){
 		$(".fotos").toggle("<div class='lista'> <div class='contener'><img src='dist/img/" + datos[i].image_url + "'></div></div>")
 	})
-})
+})*/
