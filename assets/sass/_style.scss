@@ -1,17 +1,30 @@
 body{
-
+	margin:0;
+	padding:0;
+	h4{
+		font-weight: bold;
+	}
 	
 }
 .fotos{
-	margin-right:40px;
+	margin:30px;
+	width:170px;
+	img{
+	margin-top:60px;
+	height:300px;
+	}
+	
+}
 
+.fotostres{
+	margin:30px;
+	width:170px;
+	margin-bottom:30px;
 }
 
 .lista{
 	img{
-		width:200px;
-		border-radius:5px;
-
-
+		width:170px;
+		border-radius:20px;
 	}
 }
